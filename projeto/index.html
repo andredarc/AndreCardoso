@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Projeto/Aplicação</title>
+</head>
+
+
+<body data-new-gr-c-s-check-loaded="14.1094.0" data-gr-ext-installed="">
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand">Projeto Aplicação</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="container">
+        <div class="jumbotron mt-3">
+            <h1>Questão 1</h1>
+            <p class="lead">Ordenando os numeros inseridos por ordem crescente.</p>
+            <p class="card-text">Digite os números separados por Vírgula :</p>
+            <form id="sample-form" method="post" action="http://127.0.0.1:5501/projeto/index.html">
+                <input type="text" class="input1 form-control" id="input1" placeholder=" Ex:.0,0,0,0,0">
+                <br>
+                <button type="submit" class="btn btn-primary mb-2">Ordenar</button>
+
+                <h2 class="total" id="h"></h2>
+            </form>
+        </div>
+    </div>
+   
+    <div class="container">
+        <div class="jumbotron mt-3">
+            <h1>Questão 5</h1>
+            <p class="lead">Tabuada do número:</p>
+
+            <input type="number" id="num" class=" form-control" id="n" placeholder=" Digite o número">
+            <br>
+            <button type="submit" class="btn btn-primary mb-2" onclick="tabuada()">Exibir</button>
+            <br>
+            <div id='resposta' style='display:inline'></div>
+
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
